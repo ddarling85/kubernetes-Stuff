@@ -1,0 +1,3 @@
+export API_ADDR=`ifconfig eth0 | grep 'inet '| awk '{print $2}'`
+export DNS_DOMAIN="paraklesys-inc.com"
+export POD_NET="192.168.0.0/16"
